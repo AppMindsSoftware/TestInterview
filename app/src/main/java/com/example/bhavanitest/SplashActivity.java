@@ -128,6 +128,7 @@ public class SplashActivity extends Activity
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         if(grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
             Log.v("TAG","Permission: "+permissions[0]+ "was "+grantResults[0]);
+            Log.v("TAG","Permission: "+permissions[0]+ "was "+grantResults[0]);
             //resume tasks needing this permission
         }
     }
